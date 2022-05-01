@@ -69,7 +69,16 @@
            <div itemprop="articleBody">
              
   <h1>Source code for dependency._core.function</h1><div class="highlight"><pre>
-<div class="viewcode-block" id="some_function"><a class="viewcode-back" href="../../../api/dependency.api.html#dependency.api.some_function">[docs]</a><span></span><span class="k">def</span> <span class="nf">some_function</span><span class="p">(</span><span class="n">allowed</span><span class="p">):</span>
+<span></span><span class="sd">&quot;&quot;&quot;A private module which external packages aren&#39;t meant to import or use.&quot;&quot;&quot;</span>
+
+
+<div class="viewcode-block" id="SomeObject"><a class="viewcode-back" href="../../../api/dependency.api.html#dependency.api.SomeObject">[docs]</a><span class="k">class</span> <span class="nc">SomeObject</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;An object that does something.&quot;&quot;&quot;</span>
+
+    <span class="k">pass</span></div>
+
+
+<div class="viewcode-block" id="some_function"><a class="viewcode-back" href="../../../api/dependency.api.html#dependency.api.some_function">[docs]</a><span class="k">def</span> <span class="nf">some_function</span><span class="p">(</span><span class="n">allowed</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Get some string back.</span>
 
 <span class="sd">    Args:</span>
