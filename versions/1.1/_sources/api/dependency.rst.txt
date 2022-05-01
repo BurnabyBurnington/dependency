@@ -1,0 +1,12 @@
+dependency
+==========
+
+.. toctree::
+   :maxdepth: 4
+
+   api <dependency.api>
+
+.. automodule:: dependency
+   :members:
+   :undoc-members:
+   :show-inheritance:

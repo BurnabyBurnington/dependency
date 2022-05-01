@@ -1,0 +1,7 @@
+dependency.api
+--------------
+
+.. automodule:: dependency.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
